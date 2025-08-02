@@ -1,4 +1,4 @@
-package CucumberJava;
+package JavaBasics;
 
 public class Car {
     public static void main(String[] args) {

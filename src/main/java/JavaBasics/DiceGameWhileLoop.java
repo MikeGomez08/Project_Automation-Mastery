@@ -1,4 +1,4 @@
-package CucumberJava;
+package JavaBasics;
 
 import java.util.Scanner;
 
