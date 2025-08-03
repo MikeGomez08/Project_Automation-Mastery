@@ -38,6 +38,5 @@ public class ArrayMethods {
         else {
             System.out.println("The arrays are not equal");
         }
-
     }
 }
