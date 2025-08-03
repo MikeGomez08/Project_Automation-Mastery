@@ -2,12 +2,12 @@ package JavaBasics;
 import java.util.Scanner;
 
 public class CarClass {
-
-    // Constructor - Default constructor
-    CarClass() {}
-
-    // Constructor - Paramaterized
-    CarClass(String color) {}
+//
+//    // Constructor - Default constructor
+//    CarClass() {}
+//
+//    // Constructor - Paramaterized
+//    CarClass(String color) {}
 
     // Access Modifiers
     private String color;
