@@ -70,6 +70,12 @@ automation-mastery/
 - 📄 [Gherkin Syntax Reference](https://cucumber.io/docs/gherkin/reference/)
 - 📘 [Cucumber with Java + Maven](https://www.baeldung.com/cucumber-java-example)
 
+### Chrome Driver Setup
+- [Chrome Driver Link](https://googlechromelabs.github.io/chrome-for-testing/#stable)
+- [Chrome Driver Selenium Installation] (https://sites.google.com/chromium.org/driver/downloads)
+
+
+
 ### 🔹 Selenium
 - 🌐 [Selenium WebDriver Documentation](https://www.selenium.dev/documentation/webdriver/)
 - 📘 [Selenium with Java (ToolsQA)](https://www.toolsqa.com/selenium-webdriver/selenium-java-tutorial/)
