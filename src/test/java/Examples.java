@@ -5,17 +5,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Examples {
 
-
     WebDriver driver;
     WebDriverWait wait;
-
 
     @Before
     public void initializeDriver() {
         //Initialize driver
         driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/v1/");
-
+        // Full screen of the window
+       //  driver.manage().window().fullscreen();
     }
 
     // Test Method
@@ -28,6 +27,20 @@ public class Examples {
 
     @Test
     public void validateLogin() {
+
+        // Set the point
+        Point point = driver.manage().window().getPosition();
+        System.out.println(point.x);
+        System.out.println(point.y);
+
+        Point point1 = new Point(20, 20);
+        driver.manage().window().setPosition(point1);
+
+        // Different screen size
+        Dimension dimension = new Dimension(1200, 1000);
+        driver.manage().window().setSize(dimension);
+
+
         // Get the login details
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
