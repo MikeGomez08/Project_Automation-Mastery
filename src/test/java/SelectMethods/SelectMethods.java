@@ -3,9 +3,7 @@ import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
 import java.util.List;
-
 import static SelectMethods.DriverManager.*;
 
 
@@ -37,7 +35,6 @@ public class SelectMethods {
         else{
             System.out.println("It is not a multiple select");
         }
-
     }
 
     @Test
@@ -66,7 +63,6 @@ public class SelectMethods {
             System.out.println(element1.getAttribute("value"));
         }
     }
-
 
     @After
     public void exitValue() {

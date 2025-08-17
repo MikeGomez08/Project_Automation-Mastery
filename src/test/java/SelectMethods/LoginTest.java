@@ -10,8 +10,6 @@ public class LoginTest {
     @Test
     public static void validateLogin() {
 
-        DriverManager.initializeDriver();
-
         // Login to the user page
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
